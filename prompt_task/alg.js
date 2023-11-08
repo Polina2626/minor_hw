@@ -23,10 +23,6 @@ if (ready) {
                 attempts -= 1;
             }
 
-            // else if (num_user > 50) {
-            //     alert('Вы ввели слишком большое число');
-            // }
-
             else if (num_user < num) {
                 alert('Ваше число меньше задуманного. Попробуйте еще');
             }
@@ -41,45 +37,6 @@ if (ready) {
 
         }
     }
-
-    // num_user = parseInt(prompt('Введите число'));
-    // attempts += 1;
-
-    // if (num_user == num) {
-    //     alert(`Вы угадали число ${num}. Количество попыток: ${attempts}`)
-    // }
-
-
-    // else if (num_user != num) {
-
-
-    //     while (num_user != num) {
-    //         num_user = parseInt(prompt('Введите число'));
-    //         attempts += 1;
-
-    //         if (num_user < 0) {
-    //             alert('Вы ввели слишком маленькое число');
-    //         }
-
-    //         else if (num_user > 50) {
-    //             alert('Вы ввели слишком большое число');
-    //         }
-
-    //         else if (num_user < num) {
-    //             alert('Ваше число меньше задуманного. Попробуйте еще');
-    //         }
-    //         else if (num_user > num) {
-    //             alert('Ваше число больше задуманного. Попробуйте еще');
-    //         }
-
-    //         else if (typeof num_user != Number) {
-    //             alert('Вы ввели не числовое значение');
-    //         }
-    //     }
-
-    //     confirm(`Вы угадали число  ${num}. Количество попыток: ${attempts}`);
-    // }
-
 
 
 }
