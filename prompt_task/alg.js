@@ -4,30 +4,36 @@ let num = Math.floor(Math.random() * 50);
 
 let num_user;
 
-let correct_result;
-
 let attempts = 0;
 
 if (ready) {
-    num_user = prompt('Угадайте целое задуманное число от 0 до 50');
-    attempts += 1;
-} 
 
-
-if (num_user == num) {
-    correct_result  = confirm(`Вы угадали число за 1 попытку! Ответ: ${num}`);
-}
-else if (num_user != num) {
-    
-    while (num_user != num) {
-        if (num_user < num) {
-            num_user = prompt('Ваше число меньше задуманного. Попробуйте еще');
-            attempts += 1;
+    while (true) {
+        num_user = parseInt(prompt('Введите число'));
+        attempts += 1;
+        if (num_user == num) {
+            
+            alert(`Вы угадали число ${num}. Количество попыток: ${attempts}`);
+            break;
         }
-        else if (num_user > num) {
-            num_user = prompt('Ваше число больше задуманного. Попробуйте еще');
-            attempts += 1;
+
+        else if (num_user != num) {
+            if (num_user < 0  || num_user > 50) {
+                alert('Ваше число вне диапазона');
+                attempts -= 1;
+            }
+
+            else if (num_user < num) {
+                alert('Ваше число меньше задуманного. Попробуйте еще');
+            }
+            else if (num_user > num) {
+                alert('Ваше число больше задуманного. Попробуйте еще');
+            }
+
+            else if (typeof num_user != Number) {
+                alert('Вы ввели не числовое значение');
+                attempts -= 1;
+            }
+
         }
     }
-    correct_result  = confirm(`Вы угадали число  ${num}. Количество попыток: ${attempts}`);
-}
