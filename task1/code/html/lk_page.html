@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Московский букинист</title>
+    <link rel="stylesheet" href='../CSS/style.css'>
+</head>
+
+<body>
+    <div class='box__content'>
+        <div class='header'>
+            <div class='logo'>
+                <a class='logo__name' href='../../index.html'>Московский<br>букинист</a>
+                <div class='socialmedia'>
+                    <a href='https://vk.com/moscowseasons' target="_blank" class='VK'><img width='40'
+                            src='../../images/VK.svg' ;></a>
+                    <a href='https://ok.ru/moscowseasons' target="_blank"><img width='40' src='../../images/OK.svg'></a>
+                </div>
+            </div>
+            <div class='nav'>
+                <ul class='nav__menu'>
+                    <li class='menu__li'><a href='../../index.html'>Главная</a></li>
+                    <li class='menu__li'><a href='order_page.html'>Заказать</a></li>
+                    <li class='menu__li'><a href='catalog_page.html'>Каталог</a></li>
+                    <li class='menu__li'><a href='adresses_page.html'>Адреса</a></li>
+                    <li class='menu__li'><a class='active' href='#'><img src='../../images/icon_personal_red.svg'></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <p class='subheader'>Заполните информацию о себе</p>
+
+        <div class="form__box">
+
+            <form action="https://www.bing.com/search?" id='UserInput' name='UserInput' target='_blank'>
+                <input type="hidden" name="q" value="search">
+
+                <p>
+                    <span class='input__item'>Имя:</span>
+                    <input type='text' name="first_name" value="Иван">
+                </p>
+
+                <p>
+                    <span class='input__item'>Отчество:</span>
+                    <input type='text' name="middle_name" value="Иванович">
+                </p>
+
+                <p>
+                    <span class='input__item'>Фамилия:</span>
+                    <input type='text' name="last_name" value="Иванов">
+                </p>
+
+                <br>
+
+                <p>
+                    <span class="input__item">Дата рождения:</span>
+                    <input type="date" name="date_of_birth" value="2004-08-26">
+                </p>
+
+                <br>
+
+                <p>
+                    <span class="input__item">Электронная почта:</span>
+                    <input type="email" name="email" value="pskoblova@gmail.com">
+                </p>
+
+                <br>
+
+                <p>
+                    <span class="input__item">Какие разделы литературы вас интересуют?</span>
+                <p><label><input type="checkbox" name='genre'  value="science" checked>Наука и техника</label><br>
+                    <label><input type="checkbox" name='genre' value="art">Искусство</label><br>
+                    <label><input type="checkbox" name='genre' value="history">История</label><br>
+                    <label><input type="checkbox" name='genre' value="society">Общество</label><br>
+                    <label><input type="checkbox" name='genre' value="psycology">Психология</label><br>
+                    <label><input type="checkbox" name='genre' value="textbooks">Учебники</label><br>
+                    <label><input type="checkbox" name='genre' value="dictionaries">Словари</label><br>
+                    <label><input type="checkbox" name='genre' value="detectives" checked>Детективы</label><br>
+                    <label><input type="checkbox" name='genre' value="foreign">Зарубежная литература</label><br>
+                    <label><input type="checkbox" name='genre' value="literaturescience">Литературоведение</label><br>
+                    <label><input type="checkbox" name='genre' value="poetry">Поэзия</label><br>
+                    <label><input type="checkbox" name='genre' value="russian" checked>Русская литература</label> <br>
+                    <label><input type="checkbox" name='genre' value="fantasy" checked>Фантастика, фэнтези</label> <br>
+
+                </p>
+                </p>
+
+                <div class="box_login">
+                    <p>
+                        <span class="input__item">Логин</span>
+                        <input type="text" name="login" value="polina">
+                    </p>
+
+                    <p>
+                        <span class="input__item">Пароль</span>
+                        <input type="password" name="password" value="11111111">
+                    </p>
+                </div>
+
+                <p><input class="submit" type="Submit" name="submit"  value="Отправить"></p>
+            </form>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

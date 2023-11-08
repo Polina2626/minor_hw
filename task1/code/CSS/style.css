@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Podkova&display=swap');
+
+body {
+    font-family: Merriweather;
+    margin: 0;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.box__content {
+    width: 85%;
+    /* background-color: rgb(197, 225, 216); */
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    margin-top: 64px;
+    margin-bottom: 60px;
+}
+
+
+.logo__name {
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.socialmedia {
+    margin-top: 6px;
+
+}
+
+.VK {
+    margin-right: 13px;
+}
+
+.menu__li {
+    margin-left: 75px;
+}
+
+.nav {
+    margin-left: auto;
+    margin-top: 40px;
+}
+
+.nav__menu {
+    list-style: none;
+    display: flex;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.nav__menu a {
+    color: #595959;
+}
+
+.nav__menu a.active {
+    color: #8D1111;
+}
+
+.block__flex {
+    margin-top: 60px;
+    /* выровнять элементы по верху */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    align-content: flex-start;
+
+}
+
+.flex__item {
+    width: calc(50% - 50px);
+}
+
+.footer {
+    margin-top: 60px;
+    padding-bottom: 68px;
+    padding-top: 28px;
+    background-color: #632929;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.up {
+    color: #000;
+    vertical-align: middle;
+    display: flex;
+    gap: 11px;
+    margin-left: auto;
+    position: absolute;
+    right: 26px;
+    text-decoration: none;
+
+}
+
+.email {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.subheader {
+    color: #8D1111;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.form__box {
+    background-color: #EFEFEF;
+    padding: 36px 36px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.regulartext {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.input__item {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+input {
+    color: #595959;
+    font-size: 16px;
+    border: 0;
+    font-family: Merriweather;
+}
+
+.wishes__box {
+    display: flex;
+    margin-bottom: 5px;
+    color: #595959;
+
+}
+
+textarea {
+    outline: none;
+    border: 0;
+    width: 100%;
+    height: 250px;
+    font-family: 'Merriweather';
+    font-size: 18px;
+    color:#595959;
+    padding-top: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+
+
+.pencil_icon {
+    margin-right: 5px;
+}
+
+.submit {
+    background-color: #8D1111;
+    color: white;
+    font-size: 20px;
+    font-family: Merriweather;
+    font-weight: 700;
+    border: 0;
+    padding: 10px 10px;
+
+}
+
+.catalog__item {
+    display: flex;
+    gap: 186px;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 80px;
+
+}
+
+.catalog__subitem {
+    margin-bottom: 41px;
+}
+
+.catalog__subitem a {
+    text-decoration: none;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    color: #000;
+}
+
+.catalog__item_nested {
+    list-style-image: url('../../images/icon_pin.svg');
+}
+
+.catalog__item_nested a{
+    text-decoration: none;
+    color:#000;
+}
+
+.catalog__item_nested li{
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+table {
+    background-image: url('../../images/table_bg.png');
+    width: 100%;
+    border: #000 1px solid;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+th {
+    background: #ffffff;
+    border: #000000 3px solid;
+    color:#8D1111;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* width: calc(100% / 5); */
+}
+
+td {
+    border: #000 1px solid;
+    padding: 15px 15px;
+    vertical-align: middle;
+}
+
+.genre {
+    text-align: center;
+    background: #EFEFEF;
+    font-weight: 700;
+}
+
+.book_condition {
+    display: flex;
+    gap: 8px;
+}
+
+.box__adresses ul li {
+list-style-image: url('../../images/icon_place.svg');
+font-weight: 700;
+margin-bottom: 25px;
+margin-left: 10px;
+padding-left: 10px;
+}
+
+.box__adresses ol li {
+    list-style-image: none;
+    margin: 0;
+}
+
+.box_login {
+    border: #ffffff 6px solid;
+    padding-left: 25px;
+    margin-top: 40px;
+}

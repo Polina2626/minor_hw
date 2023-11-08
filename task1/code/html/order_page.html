@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Московский букинист</title>
+    <link rel="stylesheet" href='../CSS/style.css'>
+</head>
+
+<body>
+    <div class='box__content'>
+        <div class='header'>
+            <div class='logo'>
+                <a class='logo__name' href='../../index.html'>Московский<br>букинист</a>
+                <div class='socialmedia'>
+                    <a href='https://vk.com/moscowseasons' target="_blank" class='VK'><img width='40'
+                            src='../../images/VK.svg' ;></a>
+                    <a href='https://ok.ru/moscowseasons' target="_blank"><img width='40' src='../../images/OK.svg'></a>
+                </div>
+            </div>
+            <div class='nav'>
+                <ul class='nav__menu'>
+                    <li class='menu__li'><a href='../../index.html'>Главная</a></li>
+                    <li class='menu__li'><a class='active' href='#'>Заказать</a></li>
+                    <li class='menu__li'><a href='catalog_page.html'>Каталог</a></li>
+                    <li class='menu__li'><a href='adresses_page.html'>Адреса</a></li>
+                    <li class='menu__li'><a href='lk_page.html'><img src='../../images/personal_icon.svg'></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <p class='subheader'>Оформление заказа</p>
+        <p class='regulartext'>Если вам нужна книга, которой нет в наличии, вы можете заказать её здесь. Наши букинисты
+            постараются найти книгу как можно скорее. После этого вы сможете забрать её в одном из магазинов. Каждая
+            заявка рассматривается вручную.</p>
+
+        <div class="form__box">
+            <form action="https://www.bing.com/search?" id='UserInput' name='UserInput' target='_blank'>
+                <input  type="hidden"  name="q" value="search">
+
+
+                <p> 
+                    <span class='input__item'>Название:</span>
+                    <input type='text' name="book_name" value="Евгений Онегин">
+                </p>
+
+                <p>
+                    <span class='input__item'>Автор:</span> 
+                    <input type='text' name="book_author" value="А. С. Пушкин">
+                </p>
+
+                <br>
+
+                <p><span class="input__item">Способ получения:</span></p>
+                <p>
+                    <input type="radio" name="receiving" value="забрать в магазине" checked>Забрать в магазине 
+                    &nbsp; &nbsp;&nbsp; &nbsp;
+                    <input type="radio" name="receiving" value="доставка">Доставка
+                </p>
+
+                <p>
+                    <span class="input__item">Желаемая дата готовности:</span>
+                    <input type="date" name="date" value="2023-11-12">
+                </p>
+
+<br>
+
+                <div>
+                    <div class="wishes__box"><img class = 'pencil_icon' src="../../images/icon_pencil.svg">Дополнительные пожелания</div>
+                    <TEXTAREA name="textarea" >Положить в подарочный пакет</TEXTAREA>
+                </div>
+
+                <p><input class="submit" type="Submit" name="submit"  value="Отправить"></p>
+
+            </form>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

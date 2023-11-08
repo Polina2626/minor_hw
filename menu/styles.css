@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Theano Didot';
+    src: url("TTBarrelsRegular.ttf");
+  }
+
+body { 
+    background-image: url(bg_menu.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.big {
+    margin: auto;
+    width: 1351px;
+    height: 941px;
+    border: 9px solid transparent; 
+    padding: 0px;
+    border-spacing: 9px;
+}
+
+.table_nested{
+    /*border-spacing:0px;*/
+    background-color: none;
+    border-collapse: collapse;
+    width: 100%;
+    /*height: 123.005px;*/
+
+}
+
+
+th {
+    background-color: rgba(217, 217, 217, 0.71);
+    color: #2B1E1E;
+    font-family: Theano Didot;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 440px;
+    height: 123.005px;
+    
+}
+
+th.title {
+    font-size: 48px;
+    background-color: rgba(217, 217, 217, 0.71);
+}
+
+td {
+    border: none;
+    width: 440px;
+    /*height: 70px;*/
+    color: #2B1E1E;
+    font-family: Theano Didot;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    vertical-align: top;
+   
+}
+
+.lists {
+    background-color: rgba(217, 217, 217, 0.71);
+}
+
+img{
+    width: 63px; 
+    height: 57px; 
+    fill: none;
+}
+
+.food {
+    padding-left: 10px;
+    /*padding-bottom: 26px;*/
+    vertical-align: bottom;
+    padding-bottom: 5px;
+    /*border-spacing: 0, 20px;*/
+    padding-top: 30px;
+}
+
+.price{
+    text-align: right;
+    width: 10%;
+    padding-right: 10px;
+    vertical-align: bottom;
+}
+
+.dessert {
+    /*border-spacing: 0, 10px;*/
+    padding-left: 10px;
+    vertical-align: bottom;
+    padding-bottom: 3px;
+    padding-top: 32px;
+   
+}
+
+.price_dessert {
+    text-align: right;
+    width: 20%;
+    padding-right: 10px;
+    vertical-align: bottom;
+    /*border-spacing: 0, 10px;*/
+}
+
+.drinks{
+    /*border-spacing: 0, 5px;*/
+    padding-left: 10px;
+    vertical-align: bottom;
+    padding-bottom: 0px;
+    padding-top: 30px;
+    padding-bottom: 2px;
+}
+
+.price_drinks {
+    text-align: right;
+    width: 20%;
+    padding-right: 10px;
+    vertical-align: bottom;
+    /*border-spacing: 0, 5px; */
+}
+
+
+
+
